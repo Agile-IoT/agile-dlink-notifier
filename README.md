@@ -1,8 +1,9 @@
 # agile-dlink-notifier
 (enControl) Anomalies detection notifier java implementation for AGILE gateway.
 
-This component is a small microservice that connects enControl anomalies detection with AGILE gateway. 
-It’s a simple but very powerful tool enabling the platform to handle critical events in real time.
+This component is a small microservice that connects enControl anomalies detection with AGILE gateway. It’s a simple but very powerful tool enabling the platform to handle critical events in real time.
+
+This work is related with https://github.com/Agile-IoT/agile-dlink
 
 When AGILE platform starts, our microservice for anomalies detection (which is also a docker container) opens a persistent connection to enControl using lightweight Websockets technology which allows real time server push updates. 
 
