@@ -26,10 +26,10 @@ Steps to use it in your AGILE project:
 
   1.	Clone agile-dlink-notifier github repository (https://github.com/Agile-IoT/agile-dlink-notifier)
   2.	Modify agile-dlink-notifier configuration parameters:
-    a.	enControl API key (found in file DLinkNotifier.java and SStackWebApiConsumer.java
-    b.	enControl username (found in file SStackWebApiConsumer.java)
-    c.	enControl password (found in file SStackWebApiConsumer.java)
-    d.	enControl user Id (found in file DLinkNotifier.java)
+      a.	enControl API key (found in file DLinkNotifier.java and SStackWebApiConsumer.java
+      b.	enControl username (found in file SStackWebApiConsumer.java)
+      c.	enControl password (found in file SStackWebApiConsumer.java)
+      d.	enControl user Id (found in file DLinkNotifier.java)
 
   3.	Modify agile-stack Docker/Docker Compose files as needed for your development environment and your deployment target chosen in the pre-requisites (you can take agile-dummy as an example or follow the complete and detailed AGILE’s official documentation in the following link http://agile-iot.eu/wiki/index.php?title=How_to_develop_a_new_Protocol) 
   4.	Launch a Docker build (for the specific command check the complete and detailed AGILE’s official documentation in the following link http://agile-iot.eu/wiki/index.php?title=How_to_develop_a_new_Protocol or check docker documentation https://docs.docker.com/)   
