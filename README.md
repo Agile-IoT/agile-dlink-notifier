@@ -26,6 +26,7 @@ Steps to use it in your AGILE project:
 
   1.	Clone agile-dlink-notifier github repository (https://github.com/Agile-IoT/agile-dlink-notifier)
   2.	Modify agile-dlink-notifier configuration parameters:
+      
       a.	enControl API key (found in file DLinkNotifier.java and SStackWebApiConsumer.java
       b.	enControl username (found in file SStackWebApiConsumer.java)
       c.	enControl password (found in file SStackWebApiConsumer.java)
